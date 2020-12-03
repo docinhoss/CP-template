@@ -2,6 +2,7 @@
 
 #define trav(a,x) for(auto& a : x)
 #define rep(i,a,b) for(int i = a; i < (b); ++i)
+#define sz(v) ((int)((v).size()))
 
 #define LOWER(s) transform(s.begin(), s.end(), s.begin(), ::tolower)
 #define UP(s) transform(s.begin(), s.end(), s.begin(), ::toupper)
